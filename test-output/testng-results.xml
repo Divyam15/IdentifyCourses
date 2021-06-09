@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Total count of Languages : 9]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[English]]>
+    </line>
+    <line>
+      <![CDATA[Spanish]]>
+    </line>
+    <line>
+      <![CDATA[French]]>
+    </line>
+    <line>
+      <![CDATA[Russian]]>
+    </line>
+    <line>
+      <![CDATA[Portuguese (Portugal)]]>
+    </line>
+    <line>
+      <![CDATA[German]]>
+    </line>
+    <line>
+      <![CDATA[Arabic]]>
+    </line>
+    <line>
+      <![CDATA[Vietnamese]]>
+    </line>
+    <line>
+      <![CDATA[Italian]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Total count of Level : 4]]>
+    </line>
+    <line>
+      <![CDATA[Beginner]]>
+    </line>
+    <line>
+      <![CDATA[Intermediate]]>
+    </line>
+    <line>
+      <![CDATA[Mixed]]>
+    </line>
+    <line>
+      <![CDATA[Advanced]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Details of First Course :]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Course Name - Search Engine Optimization (SEO)]]>
+    </line>
+    <line>
+      <![CDATA[Course Rating - 4.6]]>
+    </line>
+    <line>
+      <![CDATA[Course Duration - ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Details of Second Course :]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Course Name - Introduction to Web Development]]>
+    </line>
+    <line>
+      <![CDATA[Course Rating - 4.7]]>
+    </line>
+    <line>
+      <![CDATA[Course Duration - ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-26T11:53:41 IST" name="Default suite" finished-at="2021-05-26T11:59:49 IST" duration-ms="367758">
+    <groups>
+      <group name="Regression">
+        <method signature="formFilling.FillForm()[pri:2, instance:Hackathon.formFilling@120f102b]" name="FillForm" class="Hackathon.formFilling"/>
+        <method signature="formFilling.ForEnterprise()[pri:1, instance:Hackathon.formFilling@120f102b]" name="ForEnterprise" class="Hackathon.formFilling"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="IdentifyCourses.firstCourse()[pri:4, instance:Hackathon.IdentifyCourses@625732]" name="firstCourse" class="Hackathon.IdentifyCourses"/>
+        <method signature="IdentifyCourses.secondCourse()[pri:5, instance:Hackathon.IdentifyCourses@625732]" name="secondCourse" class="Hackathon.IdentifyCourses"/>
+        <method signature="IdentifyCourses.screenShot()[pri:5, instance:Hackathon.IdentifyCourses@625732]" name="screenShot" class="Hackathon.IdentifyCourses"/>
+        <method signature="IdentifyCourses.searchCourse()[pri:1, instance:Hackathon.IdentifyCourses@625732]" name="searchCourse" class="Hackathon.IdentifyCourses"/>
+        <method signature="IdentifyCourses.selectLanguage()[pri:2, instance:Hackathon.IdentifyCourses@625732]" name="selectLanguage" class="Hackathon.IdentifyCourses"/>
+        <method signature="IdentifyCourses.selectLevel()[pri:3, instance:Hackathon.IdentifyCourses@625732]" name="selectLevel" class="Hackathon.IdentifyCourses"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-05-26T11:53:41 IST" name="Default test" finished-at="2021-05-26T11:59:49 IST" duration-ms="367758">
+      <class name="Hackathon.IdentifyCourses">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:53:41 IST" name="openBrowser" finished-at="2021-05-26T11:53:48 IST" duration-ms="7020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="searchCourse()[pri:1, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:53:48 IST" name="searchCourse" finished-at="2021-05-26T11:54:34 IST" duration-ms="46155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCourse -->
+        <test-method signature="selectLanguage()[pri:2, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:54:34 IST" name="selectLanguage" finished-at="2021-05-26T11:54:51 IST" duration-ms="16454" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Total count of Languages : 9]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[English]]>
+            </line>
+            <line>
+              <![CDATA[Spanish]]>
+            </line>
+            <line>
+              <![CDATA[French]]>
+            </line>
+            <line>
+              <![CDATA[Russian]]>
+            </line>
+            <line>
+              <![CDATA[Portuguese (Portugal)]]>
+            </line>
+            <line>
+              <![CDATA[German]]>
+            </line>
+            <line>
+              <![CDATA[Arabic]]>
+            </line>
+            <line>
+              <![CDATA[Vietnamese]]>
+            </line>
+            <line>
+              <![CDATA[Italian]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLanguage -->
+        <test-method signature="selectLevel()[pri:3, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:54:51 IST" name="selectLevel" finished-at="2021-05-26T11:54:55 IST" duration-ms="4002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Total count of Level : 4]]>
+            </line>
+            <line>
+              <![CDATA[Beginner]]>
+            </line>
+            <line>
+              <![CDATA[Intermediate]]>
+            </line>
+            <line>
+              <![CDATA[Mixed]]>
+            </line>
+            <line>
+              <![CDATA[Advanced]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLevel -->
+        <test-method signature="firstCourse()[pri:4, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:54:55 IST" name="firstCourse" finished-at="2021-05-26T11:55:10 IST" duration-ms="14983" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Details of First Course :]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Course Name - Search Engine Optimization (SEO)]]>
+            </line>
+            <line>
+              <![CDATA[Course Rating - 4.6]]>
+            </line>
+            <line>
+              <![CDATA[Course Duration - ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- firstCourse -->
+        <test-method signature="screenShot()[pri:5, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:55:10 IST" name="screenShot" finished-at="2021-05-26T11:55:10 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="secondCourse()[pri:5, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:55:11 IST" name="secondCourse" finished-at="2021-05-26T11:55:14 IST" depends-on-methods="Hackathon.IdentifyCourses.firstCourse" duration-ms="3451" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Details of Second Course :]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Course Name - Introduction to Web Development]]>
+            </line>
+            <line>
+              <![CDATA[Course Rating - 4.7]]>
+            </line>
+            <line>
+              <![CDATA[Course Duration - ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondCourse -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Hackathon.IdentifyCourses@625732]" started-at="2021-05-26T11:55:14 IST" name="closeBrowser" finished-at="2021-05-26T11:55:15 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Hackathon.IdentifyCourses -->
+      <class name="Hackathon.formFilling">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Hackathon.formFilling@120f102b]" started-at="2021-05-26T11:53:34 IST" name="openBrowser" finished-at="2021-05-26T11:53:41 IST" duration-ms="7517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="ForEnterprise()[pri:1, instance:Hackathon.formFilling@120f102b]" started-at="2021-05-26T11:55:15 IST" name="ForEnterprise" finished-at="2021-05-26T11:55:47 IST" duration-ms="31436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForEnterprise -->
+        <test-method signature="FillForm()[pri:2, instance:Hackathon.formFilling@120f102b]" started-at="2021-05-26T11:55:47 IST" name="FillForm" finished-at="2021-05-26T11:59:49 IST" duration-ms="242024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Hackathon.formFilling@120f102b]" started-at="2021-05-26T11:59:49 IST" name="closeBrowser" finished-at="2021-05-26T11:59:51 IST" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Hackathon.formFilling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
